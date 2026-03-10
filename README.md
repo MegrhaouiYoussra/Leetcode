@@ -214,3 +214,22 @@ Where:
 Space Complexity:
 
 O(1)
+
+
+
+## Problem: 
+
+### Two Sum
+
+Link: https://leetcode.com/problems/two-sum/
+
+Approach:
+- Use a HashMap to store numbers and their indices
+- For each number, check if the complement exists
+
+Time Complexity: O(n)  
+Space Complexity: O(n)
+
+## Progress
+
+I am continuously adding new problems as I practice.
