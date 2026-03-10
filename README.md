@@ -140,3 +140,77 @@ One pointer starts at the beginning of the string and the other starts at the en
 Before comparing characters, we skip any character that is not a letter or a digit.
 Time Complexity: O(n)
 Space Complexity: O(1)
+
+
+
+---
+
+# Problem: Jewels and Stones
+
+## Description
+
+You are given two strings:
+
+- `jewels` representing the types of stones that are jewels
+- `stones` representing the stones you have
+
+Each character in `stones` is a type of stone.
+
+Your goal is to determine **how many stones you have that are also jewels**.
+
+Letters are **case-sensitive**, so `"a"` is different from `"A"`.
+
+---
+
+Example 1:
+
+Input:
+
+jewels = "aA"  
+stones = "aAAbbbb"
+
+Output:
+
+3
+
+Explanation:
+
+The stones **a, A, A** are jewels.
+
+---
+
+Example 2:
+
+Input:
+
+jewels = "z"  
+stones = "ZZ"
+
+Output:
+
+0
+
+---
+
+## Solution
+
+We iterate through the `stones` string and check if each character exists inside the `jewels` string.
+
+If it exists, we increment a counter.
+
+---
+
+## Complexity
+
+Time Complexity:
+
+O(n × m)
+
+Where:
+
+- n = length of stones
+- m = length of jewels
+
+Space Complexity:
+
+O(1)
