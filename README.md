@@ -30,6 +30,7 @@ The goal of this repository is to improve my problem-solving skills and prepare 
 | Reverse String | String | https://leetcode.com/problems/reverse-string/ |
 | Valid Palindrome | String, Two Pointers | https://leetcode.com/problems/valid-palindrome/ |
 | Jewels and Stones | HashMap | https://leetcode.com/problems/jewels-and-stones/ |
+| Fibonacci Number | Recursion | https://leetcode.com/problems/fibonacci-number/ |
 
 ---
 
