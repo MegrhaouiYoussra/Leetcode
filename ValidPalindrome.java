@@ -11,11 +11,11 @@ public class ValidPalindrome {
       }
 
       while (left < right && !Character.isLetterOrDigit(s.charAt(right))) {
-        right--;
+        right--; // ignore les spaces , ponctuation , symbols ,,
       }
 
       if (Character.toLowerCase(s.charAt(left)) != Character.toLowerCase(s.charAt(right))) {
-        return false;
+        return false; // transforme A en a et B en b
       }
 
       left++;
