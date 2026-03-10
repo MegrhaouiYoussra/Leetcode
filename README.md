@@ -102,3 +102,41 @@ O(n)
 Space Complexity:
 
 O(n)
+# Problem: Valid Palindrome
+
+## Description
+
+The goal of this problem is to determine whether a string is a palindrome.
+
+A palindrome is a string that reads the same forward and backward.
+
+When solving this problem, we ignore:
+- spaces
+- punctuation
+- uppercase and lowercase differences
+
+Example
+
+Input:
+"A man, a plan, a canal: Panama"
+
+Output:
+true
+
+After removing non-alphanumeric characters and converting to lowercase, the string becomes:
+
+amanaplanacanalpanama
+
+which reads the same forward and backward.
+
+---
+
+# Solution: Two Pointers
+
+This solution uses the **two pointers technique**.
+
+One pointer starts at the beginning of the string and the other starts at the end.
+
+Before comparing characters, we skip any character that is not a letter or a digit.
+Time Complexity: O(n)
+Space Complexity: O(1)
