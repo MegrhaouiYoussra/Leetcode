@@ -49,4 +49,4 @@ JewelsAndStones.java
 
 ## Progress
 
-I am continuously solving new problems and updating this repository as part of my interview preparation.
+I am continuously solving new problems and updating this repository .
